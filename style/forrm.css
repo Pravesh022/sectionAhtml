@@ -1,0 +1,89 @@
+.From-compo{
+/* height: 40vh;
+width: 60%;
+position: absolute;
+transform: translate(50%, 50%);
+box-shadow: 5px 5px 5px 5px chartreuse; */
+width: 40%;
+top: 65%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-shadow: 5px 5px 5px 5px cadetblue;
+padding: 20px;
+}
+.From-compo h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.From-compo input[type=text],input[type=number],input[type=email],input[type=datetime-local],select
+{
+    width: 100%;
+    height: 35px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-family: serif;
+}
+.From-compo input[type=text]:focus,input[type=number]:focus,input[type=email]:focus,input[type=datetime-local]:focus,select:focus{
+    outline: 2px solid cadetblue;
+}
+.From-compo label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    margin-bottom: 10px;
+    
+}
+.From-compo input[type=radio]{
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    border: 2px solid rgb(11, 141, 255);
+    border-radius: 50%;
+    margin-right: 10px;
+    box-shadow: 2px 2px 2px  cadetblue;
+
+
+
+}
+.From-compo input[type=radio]:before{
+    content: '';
+    height: 60%;
+    width: 60%;
+    display: block;
+    border-radius: 60%;
+    margin: 20% auto;
+    background-color: aqua;
+    
+
+}
+.From-compo input[type=radio]:checked:before{
+    background-color: cadetblue;
+
+}
+.From-compo input[type=color]{
+    display: block;
+    margin-bottom: 20px;
+    height: 50px;
+    width: 200px;
+}
+.From-compo input[type=reset],input[type=submit]{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin=right: 20px;
+    cursor: pointer;
+}
+
+   
+
+

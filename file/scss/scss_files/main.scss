@@ -1,0 +1,42 @@
+@import "mixin";
+@import "var";
+
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: $color;
+    @include flex_code();
+   
+
+    h1{
+        @include font_size(50px);
+        font-size: 1rem + 1rem;
+        $color:$color1;
+    h1:hover{
+        color:red;
+    }
+    }
+
+     p{
+        @include font_size(15px);
+    color:$color1;
+    letter-spacing: 10px;
+    font-family: monospace;
+    
+    
+    }
+}
+
+// operator 
+
